@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "capabilities_path": "capabilities.json",
+  "templates": [
+    {
+      "id": "latest",
+      "name": "Latest",
+      "description": "Update existing pinned Grunts to newer generally available models in the same provider, family and tier. Keeps IDs and custom settings; adds or deletes nothing.",
+      "path": "grunts/latest.md",
+      "updated_at": "2026-10-05",
+      "last_verified": "2026-10-05",
+      "supported_harnesses": [
+        "claude-code",
+        "codex",
+        "pi",
+        "agy",
+        "cursor"
+      ],
+      "compatibility_notes": "Requires a ready System Grunt and access to the configured providers. Actual model access is checked before each change."
+    },
+    {
+      "id": "balanced",
+      "name": "Balanced",
+      "description": "Create or update two model-specific Codex Grunts: GPT-6 Luna for everyday work and GPT-6.1 Sol for deeper work. Requires Codex access to both models.",
+      "path": "grunts/balanced.md",
+      "updated_at": "2026-10-05",
+      "last_verified": "2026-10-05",
+      "supported_harnesses": [
+        "codex"
+      ],
+      "compatibility_notes": "Follows verified generally available equivalents within the Luna and Sol families. Preserves existing user-created Grunts and menu preferences; never creates effort variants."
+    }
+  ]
+}

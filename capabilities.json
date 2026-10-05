@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "harness": "codex",
+      "provider": "openai",
+      "models": [
+        "gpt-6.1-sol",
+        "gpt-6-sol",
+        "gpt-6-astra",
+        "gpt-5.6-sol",
+        "gpt-5.6-terra"
+      ],
+      "cli_min_version": "0.160.0",
+      "cli_max_version": null,
+      "adapter": "codex_config_v1",
+      "effort_options": [
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "medium",
+          "label": "Medium"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "xhigh",
+          "label": "X High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        },
+        {
+          "id": "ultra",
+          "label": "Ultra"
+        }
+      ],
+      "recommended_default": "xhigh",
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://learn.chatgpt.com/docs/models",
+        "https://learn.chatgpt.com/docs/config-file/config-reference",
+        "https://learn.chatgpt.com/docs/app-server#list-models-modellist"
+      ]
+    },
+    {
+      "harness": "codex",
+      "provider": "openai",
+      "models": [
+        "gpt-6-luna",
+        "gpt-5.6-luna"
+      ],
+      "cli_min_version": "0.160.0",
+      "cli_max_version": null,
+      "adapter": "codex_config_v1",
+      "effort_options": [
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "medium",
+          "label": "Medium"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "xhigh",
+          "label": "X High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        }
+      ],
+      "recommended_default": "xhigh",
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://learn.chatgpt.com/docs/models",
+        "https://learn.chatgpt.com/docs/config-file/config-reference",
+        "https://learn.chatgpt.com/docs/app-server#list-models-modellist"
+      ]
+    },
+    {
+      "harness": "claude-code",
+      "provider": "anthropic",
+      "models": [
+        "claude-opus-5-5",
+        "claude-sonnet-5-5",
+        "claude-opus-5",
+        "claude-sonnet-5",
+        "claude-fable-5-1",
+        "claude-fable-5",
+        "claude-opus-4-8",
+        "claude-opus-4-7"
+      ],
+      "cli_min_version": "2.1.289",
+      "cli_max_version": null,
+      "adapter": "claude_effort_v1",
+      "effort_options": [
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "medium",
+          "label": "Medium"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "xhigh",
+          "label": "X High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        }
+      ],
+      "recommended_default": "xhigh",
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://code.claude.com/docs/en/model-config#adjust-effort-level",
+        "https://code.claude.com/docs/en/cli-reference#cli-flags"
+      ]
+    },
+    {
+      "harness": "claude-code",
+      "provider": "anthropic",
+      "models": [
+        "claude-opus-4-6",
+        "claude-sonnet-4-6"
+      ],
+      "cli_min_version": "2.1.289",
+      "cli_max_version": null,
+      "adapter": "claude_effort_v1",
+      "effort_options": [
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "medium",
+          "label": "Medium"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        }
+      ],
+      "recommended_default": "high",
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://code.claude.com/docs/en/model-config#adjust-effort-level",
+        "https://code.claude.com/docs/en/cli-reference#cli-flags"
+      ]
+    },
+    {
+      "harness": "pi",
+      "provider": "anthropic",
+      "models": [
+        "claude-opus-5-5",
+        "claude-sonnet-5-5"
+      ],
+      "cli_min_version": "1.0.2",
+      "cli_max_version": null,
+      "adapter": "pi_thinking_v1",
+      "effort_options": [
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "medium",
+          "label": "Medium"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "xhigh",
+          "label": "X High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        }
+      ],
+      "recommended_default": "xhigh",
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
+        "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
+        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2"
+      ]
+    },
+    {
+      "harness": "pi",
+      "provider": "openai-codex",
+      "models": [
+        "gpt-6.1-sol"
+      ],
+      "cli_min_version": "1.0.2",
+      "cli_max_version": null,
+      "adapter": "pi_thinking_v1",
+      "effort_options": [
+        {
+          "id": "minimal",
+          "label": "Minimal"
+        },
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "medium",
+          "label": "Medium"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "xhigh",
+          "label": "X High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        }
+      ],
+      "recommended_default": "xhigh",
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
+        "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
+        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2"
+      ]
+    },
+    {
+      "harness": "pi",
+      "provider": "openai-codex",
+      "models": [
+        "gpt-6-luna"
+      ],
+      "cli_min_version": "1.0.2",
+      "cli_max_version": null,
+      "adapter": "pi_thinking_v1",
+      "effort_options": [
+        {
+          "id": "off",
+          "label": "Off"
+        },
+        {
+          "id": "minimal",
+          "label": "Minimal"
+        },
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "medium",
+          "label": "Medium"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "xhigh",
+          "label": "X High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        }
+      ],
+      "recommended_default": "xhigh",
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
+        "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
+        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2"
+      ]
+    },
+    {
+      "harness": "pi",
+      "provider": "openrouter",
+      "models": [
+        "deepseek/deepseek-v4.1-flash"
+      ],
+      "cli_min_version": "1.0.2",
+      "cli_max_version": null,
+      "adapter": "pi_thinking_v1",
+      "effort_options": [
+        {
+          "id": "off",
+          "label": "Off"
+        },
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        }
+      ],
+      "recommended_default": "high",
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
+        "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
+        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2"
+      ]
+    },
+    {
+      "harness": "cursor",
+      "provider": "cursor",
+      "models": [
+        "auto"
+      ],
+      "cli_min_version": null,
+      "cli_max_version": null,
+      "adapter": "native",
+      "effort_options": [],
+      "recommended_default": null,
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://cursor.com/docs/cli/reference/parameters"
+      ]
+    },
+    {
+      "harness": "agy",
+      "provider": "google",
+      "models": [
+        "auto"
+      ],
+      "cli_min_version": null,
+      "cli_max_version": null,
+      "adapter": "native",
+      "effort_options": [],
+      "recommended_default": null,
+      "last_verified": "2026-10-05",
+      "sources": [
+        "https://antigravity.google/docs/cli/headless/"
+      ]
+    }
+  ]
+}
