@@ -3,6 +3,20 @@
   "capabilities_path": "capabilities.json",
   "templates": [
     {
+      "id": "recommended",
+      "name": "Recommended",
+      "description": "Create or update exactly 13 model-specific Claude Code, Codex and Pi roles across Anthropic, OpenAI and OpenRouter. Follows verified same-role/family/tier/provider/harness successors; reuses IDs and hides generic unpinned defaults.",
+      "path": "grunts/recommended.md",
+      "updated_at": "2026-10-05",
+      "last_verified": "2026-10-05",
+      "supported_harnesses": [
+        "claude-code",
+        "codex",
+        "pi"
+      ],
+      "compatibility_notes": "Exact selected model IDs checked in official sources; account access and native responses must be checked on application. Preserves unrelated custom Grunts. Requires native provider access and supported explicit/shared OpenRouter credentials; unknown effort combinations remain native."
+    },
+    {
       "id": "latest",
       "name": "Latest",
       "description": "Update existing pinned Grunts to newer generally available models in the same provider, family and tier. Keeps IDs and custom settings; adds or deletes nothing.",
