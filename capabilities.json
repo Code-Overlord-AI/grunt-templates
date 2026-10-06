@@ -127,7 +127,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-06",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -162,7 +162,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-06",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -201,7 +201,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-06",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -244,7 +244,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-06",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -291,7 +291,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-06",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -326,7 +326,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-06",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -344,7 +344,7 @@
       "adapter": "native",
       "effort_options": [],
       "recommended_default": null,
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-06",
       "sources": [
         "https://cursor.com/docs/cli/reference/parameters"
       ]
@@ -360,7 +360,7 @@
       "adapter": "native",
       "effort_options": [],
       "recommended_default": null,
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-06",
       "sources": [
         "https://antigravity.google/docs/cli/headless/"
       ]
