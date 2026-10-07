@@ -2,7 +2,7 @@
 
 Public Auto-Configure prompts and native effort capabilities for [Code Overlord](https://codeoverlord.dev), a product of **Xcribe Limited** (England and Wales, company 14860348).
 
-- **Recommended** supplies 13 model-specific roles, exact at each immutable catalog revision across Claude Code, Codex and Pi. It follows only verified direct successors within the same role, family, tier, provider and harness, preserving distinct harness choices, reuses matching Grunts, and hides generic unpinned defaults without deleting harnesses or changing System Grunt references. Unrelated custom Grunts are preserved.
+- **Recommended** sets up one exact roster of 13 model-specific Grunts across Claude Code, Codex and Pi, with stable Grunt IDs that Rituals and Minions can launch by name. Each Grunt copies the launch settings of the same harness's built-in Grunt on the user's desktop, including the user's own Skip approvals choice, then adds its exact model pins. It follows only verified direct successors within the same role, family, tier, provider and harness, reuses matching Grunts, and switches off the bare Claude Code, Codex and Pi defaults unless one is the System Grunt or launched by a Ritual or Minion. Unrelated custom Grunts are preserved.
 - **Latest** updates existing pinned models within their provider, family and tier.
 - **Balanced** supplies an everyday Luna Grunt and a deeper-work Sol Grunt through Codex.
 - **capabilities.json** describes native per-launch effort choices. X High is preferred where supported; Max and Ultra are separate choices. Cursor remains available without app effort controls. Droid is excluded.

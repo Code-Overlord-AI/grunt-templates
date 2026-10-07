@@ -5,7 +5,7 @@
     {
       "id": "recommended",
       "name": "Recommended",
-      "description": "Create or update exactly 13 model-specific Claude Code, Codex and Pi roles across Anthropic, OpenAI and OpenRouter. Follows verified same-role/family/tier/provider/harness successors; reuses IDs and hides generic unpinned defaults.",
+      "description": "Set up the full 13-Grunt roster: Claude Code, Codex and Pi across Anthropic, OpenAI and OpenRouter, each launched like the harness already is on this desktop (including its Skip approvals choice). Reuses matching Grunts and switches off the bare Claude Code, Codex and Pi defaults.",
       "path": "grunts/recommended.md",
       "updated_at": "2026-10-07",
       "last_verified": "2026-10-07",
@@ -14,7 +14,7 @@
         "codex",
         "pi"
       ],
-      "compatibility_notes": "Exact selected model IDs checked in official sources; account access and native responses must be checked on application. Preserves unrelated custom Grunts. Requires native provider access and supported explicit/shared OpenRouter credentials; unknown effort combinations remain native."
+      "compatibility_notes": "Exact selected model IDs checked in official sources; account access and native responses are checked on application. Preserves unrelated custom Grunts and never switches off the System Grunt or a Grunt a Ritual or Minion launches. Requires native provider access, the shared OpenRouter key (or native Pi login) for Pi, and an existing OpenRouter reference for the two Claude Code OpenRouter Grunts; unknown effort combinations remain native."
     },
     {
       "id": "latest",
