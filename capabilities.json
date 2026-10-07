@@ -139,6 +139,45 @@
       "harness": "claude-code",
       "provider": "anthropic",
       "models": [
+        "claude-haiku-5-5"
+      ],
+      "cli_min_version": "2.1.293",
+      "cli_max_version": null,
+      "adapter": "claude_effort_v1",
+      "effort_options": [
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "medium",
+          "label": "Medium"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "xhigh",
+          "label": "X High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        }
+      ],
+      "recommended_default": "xhigh",
+      "last_verified": "2026-10-07",
+      "sources": [
+        "https://code.claude.com/docs/en/model-config#adjust-effort-level",
+        "https://code.claude.com/docs/en/cli-reference#cli-flags",
+        "https://platform.claude.com/docs/en/models/haiku-5-5/overview"
+      ]
+    },
+    {
+      "harness": "claude-code",
+      "provider": "anthropic",
+      "models": [
         "claude-opus-4-6",
         "claude-sonnet-4-6"
       ],

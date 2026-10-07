@@ -4,7 +4,7 @@ Configure this opinionated roster of exactly 13 model-specific roles, exact and 
 
 | Managed ID | Name | Harness | Provider | Exact model |
 |---|---|---|---|---|
-| template-recommended-claude-haiku | Haiku | claude-code | anthropic | claude-haiku-4-5-20251001 |
+| template-recommended-claude-haiku | Haiku 5.5 | claude-code | anthropic | claude-haiku-5-5 |
 | template-recommended-claude-sonnet | Sonnet | claude-code | anthropic | claude-sonnet-5-5 |
 | template-recommended-claude-opus | Opus | claude-code | anthropic | claude-opus-5-5 |
 | template-recommended-claude-fable | Fable | claude-code | anthropic | claude-fable-5-1 |
@@ -18,16 +18,20 @@ Configure this opinionated roster of exactly 13 model-specific roles, exact and 
 | template-recommended-pi-mimo-flash | MiMo v2.6 Flash (Pi) | pi | openrouter | xiaomi/mimo-v2.6-flash |
 | template-recommended-claude-mimo-flash | MiMo v2.6 Flash (Claude Code) | claude-code | openrouter | xiaomi/mimo-v2.6-flash |
 
-The table gives the exact starting roster at this revision. Daily maintenance may advance a verified direct successor only within the SAME role, family, tier, provider and harness, updating every applicable pin and display name together while retaining managed IDs and publishing the resulting exact table at a new immutable catalog revision. Preserve Haiku's dated ID and Terra's generation unless a direct successor is verified under that policy. No suitable verified successor means preserve the current pin and report it. Another family, cheap/capable tier, provider or harness requires a new explicit user choice; never silently switch Terra to Sol or substitute an unavailable model. Latest and Balanced retain their separate policies. Official source verification establishes model identity, not your account access or successful harness behavior.
+The table gives the exact starting roster at this revision. Daily maintenance may advance a verified direct successor only within the SAME role, family, tier, provider and harness, updating every applicable pin and display name together while retaining managed IDs and publishing the resulting exact table at a new immutable catalog revision. Preserve Terra's generation unless a direct successor is verified under that policy. No suitable verified successor means preserve the current pin and report it. Another family, cheap/capable tier, provider or harness requires a new explicit user choice; never silently switch Terra to Sol or substitute an unavailable model. Latest and Balanced retain their separate policies. Official source verification establishes model identity, not your account access or successful harness behavior.
 
 Model identity sources:
 
 - Anthropic API IDs: https://platform.claude.com/docs/en/models/overview
+- Haiku 5.5 identity and availability: https://platform.claude.com/docs/en/models/haiku-5-5/overview
+- Claude Code model support and effort: https://code.claude.com/docs/en/model-config
 - Codex models and rollout: https://learn.chatgpt.com/docs/models
 - Terra API ID: https://developers.openai.com/api/docs/models/gpt-5.6-terra
 - OpenRouter model slugs: https://openrouter.ai/api/v1/models
 - Pi provider credential environment: https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/providers.md
 - Claude Code OpenRouter routing: https://openrouter.ai/docs/cookbook/coding-agents/claude-code-integration
+
+Haiku 5.5 requires Claude Code 2.1.293 or later. An older installed version leaves this role skipped until the user upgrades; do not install or upgrade a harness as part of applying this preset. Its verified native effort choices are Low, Medium, High, X High and Max; prefer X High only when runtime account and organization restrictions allow it.
 
 Use Code Overlord's supported Armoury operations in the active workspace. Treat Run as the explicit request to apply this preset. Respect current user instructions, execution boundaries and credentials. Do not install/authenticate a harness, request keys in chat, upload configuration or publish private data.
 

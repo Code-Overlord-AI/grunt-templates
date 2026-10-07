@@ -7,7 +7,7 @@
       "name": "Recommended",
       "description": "Create or update exactly 13 model-specific Claude Code, Codex and Pi roles across Anthropic, OpenAI and OpenRouter. Follows verified same-role/family/tier/provider/harness successors; reuses IDs and hides generic unpinned defaults.",
       "path": "grunts/recommended.md",
-      "updated_at": "2026-10-05",
+      "updated_at": "2026-10-07",
       "last_verified": "2026-10-07",
       "supported_harnesses": [
         "claude-code",
