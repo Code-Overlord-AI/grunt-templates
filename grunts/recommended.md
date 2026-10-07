@@ -1,6 +1,6 @@
-# Recommended
+# The Dark Lord's Choice
 
-Set up this exact roster of 13 model-specific Grunts, each launched the same way as on the reference desktop it mirrors. After a successful run the Grunts list matches that roster: the same IDs, names, models and launch settings. The table is exact at each immutable catalog revision.
+Set up this exact roster of model-specific Grunts for every harness installed on this desktop, each launched the same way as on the reference desktop it mirrors. A row whose harness is not installed here is outside the run: do not create, skip or report it, and leave that harness's built-in alone. After a successful run the Grunts list matches the installed part of the roster: the same IDs, names, models and launch settings. The table is exact at each immutable catalog revision, and the catalog's `roster` lists the same rows.
 
 | Grunt ID | Name | Harness | Provider | Exact model |
 |---|---|---|---|---|
@@ -81,7 +81,7 @@ For every write use expected_version compare-and-set and reread the saved state.
 
 ## Successors
 
-Daily maintenance may advance a verified direct successor only within the SAME role, family, tier, provider and harness, updating every applicable pin together while keeping Grunt IDs, and publishing the resulting exact table at a new immutable catalog revision. Names follow the table: Haiku, Sonnet, Opus and Fable carry no version; the other names change when the version they state changes. Preserve Terra's generation unless a direct successor is verified under that policy. No suitable verified successor means preserve the current pin and report it. Another family, cheap/capable tier, provider or harness requires a new explicit user choice; never silently switch Terra to Sol or substitute an unavailable model. Latest and Balanced keep their separate policies. Official source verification establishes model identity, not your account access or a working harness.
+Daily maintenance may advance a verified direct successor only within the SAME role, family, tier, provider and harness, updating every applicable pin together while keeping Grunt IDs, and publishing the resulting exact table at a new immutable catalog revision. Names follow the table: Haiku, Sonnet, Opus and Fable carry no version; the other names change when the version they state changes. Preserve Terra's generation unless a direct successor is verified under that policy. No suitable verified successor means preserve the current pin and report it. Another family, cheap/capable tier, provider or harness requires a new explicit user choice; never silently switch Terra to Sol or substitute an unavailable model. Official source verification establishes model identity, not your account access or a working harness.
 
 Model identity sources:
 

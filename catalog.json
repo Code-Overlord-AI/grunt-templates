@@ -4,8 +4,8 @@
   "templates": [
     {
       "id": "recommended",
-      "name": "Recommended",
-      "description": "Set up the full 13-Grunt roster: Claude Code, Codex and Pi across Anthropic, OpenAI and OpenRouter, each launched like the harness already is on this desktop (including its Skip approvals choice). Reuses matching Grunts and switches off the bare Claude Code, Codex and Pi defaults.",
+      "name": "The Dark Lord's Choice",
+      "description": "The Dark Lord's own war band: the best model-specific Grunt for each job, set up for every harness installed here. Matching Grunts are reused, and the bare Claude Code, Codex and Pi entries leave the Grunts menu once their models are in place.",
       "path": "grunts/recommended.md",
       "updated_at": "2026-10-07",
       "last_verified": "2026-10-07",
@@ -14,35 +14,100 @@
         "codex",
         "pi"
       ],
-      "compatibility_notes": "Exact selected model IDs checked in official sources; account access and native responses are checked on application. Preserves unrelated custom Grunts and never switches off the System Grunt or a Grunt a Ritual or Minion launches. Requires native provider access, the shared OpenRouter key (or native Pi login) for Pi, and an existing OpenRouter reference for the two Claude Code OpenRouter Grunts; unknown effort combinations remain native."
-    },
-    {
-      "id": "latest",
-      "name": "Latest",
-      "description": "Update existing pinned Grunts to newer generally available models in the same provider, family and tier. Keeps IDs and custom settings; adds or deletes nothing.",
-      "path": "grunts/latest.md",
-      "updated_at": "2026-10-05",
-      "last_verified": "2026-10-07",
-      "supported_harnesses": [
-        "claude-code",
-        "codex",
-        "pi",
-        "agy",
-        "cursor"
-      ],
-      "compatibility_notes": "Requires a ready System Grunt and access to the configured providers. Actual model access is checked before each change."
-    },
-    {
-      "id": "balanced",
-      "name": "Balanced",
-      "description": "Create or update two model-specific Codex Grunts: GPT-6 Luna for everyday work and GPT-6.1 Sol for deeper work. Requires Codex access to both models.",
-      "path": "grunts/balanced.md",
-      "updated_at": "2026-10-05",
-      "last_verified": "2026-10-07",
-      "supported_harnesses": [
-        "codex"
-      ],
-      "compatibility_notes": "Follows verified generally available equivalents within the Luna and Sol families. Preserves existing user-created Grunts and menu preferences; never creates effort variants."
+      "compatibility_notes": "Only harnesses installed on the desktop are set up. Exact selected model IDs checked in official sources; account access and native responses are checked on application. Preserves unrelated custom Grunts and never switches off the System Grunt or a Grunt a Ritual or Minion launches. Requires native provider access, the shared OpenRouter key (or native Pi login) for Pi, and an existing OpenRouter reference for the two Claude Code OpenRouter Grunts; unknown effort combinations remain native.",
+      "roster": [
+        {
+          "id": "claude-code-haiku",
+          "name": "Haiku",
+          "harness": "claude-code",
+          "provider": "anthropic",
+          "model": "claude-haiku-5-5"
+        },
+        {
+          "id": "claude-code-sonnet",
+          "name": "Sonnet",
+          "harness": "claude-code",
+          "provider": "anthropic",
+          "model": "claude-sonnet-5-5"
+        },
+        {
+          "id": "claude-code-opus",
+          "name": "Opus",
+          "harness": "claude-code",
+          "provider": "anthropic",
+          "model": "claude-opus-5-5"
+        },
+        {
+          "id": "claude-code-fable",
+          "name": "Fable",
+          "harness": "claude-code",
+          "provider": "anthropic",
+          "model": "claude-fable-5-1"
+        },
+        {
+          "id": "codex-gpt-6-astra",
+          "name": "6 Astra",
+          "harness": "codex",
+          "provider": "openai",
+          "model": "gpt-6-astra"
+        },
+        {
+          "id": "codex-gpt-5.6-sol",
+          "name": "6.1 Sol",
+          "harness": "codex",
+          "provider": "openai",
+          "model": "gpt-6.1-sol"
+        },
+        {
+          "id": "codex-gpt-5.6-terra",
+          "name": "5.6 Terra",
+          "harness": "codex",
+          "provider": "openai",
+          "model": "gpt-5.6-terra"
+        },
+        {
+          "id": "codex-gpt-5.6-luna",
+          "name": "6 Luna",
+          "harness": "codex",
+          "provider": "openai",
+          "model": "gpt-6-luna"
+        },
+        {
+          "id": "pi-deepseek-v4-0731",
+          "name": "Deepseek v4-1 (Pi)",
+          "harness": "pi",
+          "provider": "openrouter",
+          "model": "deepseek/deepseek-v4.1-flash"
+        },
+        {
+          "id": "pi-glm-5-3-flash",
+          "name": "GLM 5.3 Flash (Pi)",
+          "harness": "pi",
+          "provider": "openrouter",
+          "model": "z-ai/glm-5.3-flash"
+        },
+        {
+          "id": "claude-code-glm",
+          "name": "GLM 5.3",
+          "harness": "claude-code",
+          "provider": "openrouter",
+          "model": "z-ai/glm-5.3"
+        },
+        {
+          "id": "pi-mimo-v2-6-flash",
+          "name": "MiMo v2.6 Flash (Pi)",
+          "harness": "pi",
+          "provider": "openrouter",
+          "model": "xiaomi/mimo-v2.6-flash"
+        },
+        {
+          "id": "claude-code-mimo-v2-6-flash",
+          "name": "MiMo v2.6 Flash (Claude Code)",
+          "harness": "claude-code",
+          "provider": "openrouter",
+          "model": "xiaomi/mimo-v2.6-flash"
+        }
+      ]
     }
   ]
 }
