@@ -41,11 +41,12 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
-        "https://learn.chatgpt.com/docs/app-server#list-models-modellist"
+        "https://learn.chatgpt.com/docs/app-server#list-models-modellist",
+        "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/models-manager/models.json"
       ]
     },
     {
@@ -81,11 +82,12 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
-        "https://learn.chatgpt.com/docs/app-server#list-models-modellist"
+        "https://learn.chatgpt.com/docs/app-server#list-models-modellist",
+        "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/models-manager/models.json"
       ]
     },
     {
@@ -127,7 +129,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -162,7 +164,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -201,11 +203,12 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
-        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2"
+        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2",
+        "https://registry.npmjs.org/@earendil-works/pi-ai/1.0.2"
       ]
     },
     {
@@ -244,11 +247,12 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
-        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2"
+        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2",
+        "https://registry.npmjs.org/@earendil-works/pi-ai/1.0.2"
       ]
     },
     {
@@ -291,11 +295,12 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
-        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2"
+        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2",
+        "https://registry.npmjs.org/@earendil-works/pi-ai/1.0.2"
       ]
     },
     {
@@ -326,11 +331,12 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
-        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2"
+        "https://www.npmjs.com/package/@earendil-works/pi-coding-agent/v/1.0.2",
+        "https://registry.npmjs.org/@earendil-works/pi-ai/1.0.2"
       ]
     },
     {
@@ -344,7 +350,7 @@
       "adapter": "native",
       "effort_options": [],
       "recommended_default": null,
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://cursor.com/docs/cli/reference/parameters"
       ]
@@ -360,7 +366,7 @@
       "adapter": "native",
       "effort_options": [],
       "recommended_default": null,
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "sources": [
         "https://antigravity.google/docs/cli/headless/"
       ]

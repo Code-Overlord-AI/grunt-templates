@@ -8,7 +8,7 @@
       "description": "Create or update exactly 13 model-specific Claude Code, Codex and Pi roles across Anthropic, OpenAI and OpenRouter. Follows verified same-role/family/tier/provider/harness successors; reuses IDs and hides generic unpinned defaults.",
       "path": "grunts/recommended.md",
       "updated_at": "2026-10-05",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "supported_harnesses": [
         "claude-code",
         "codex",
@@ -22,7 +22,7 @@
       "description": "Update existing pinned Grunts to newer generally available models in the same provider, family and tier. Keeps IDs and custom settings; adds or deletes nothing.",
       "path": "grunts/latest.md",
       "updated_at": "2026-10-05",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "supported_harnesses": [
         "claude-code",
         "codex",
@@ -38,7 +38,7 @@
       "description": "Create or update two model-specific Codex Grunts: GPT-6 Luna for everyday work and GPT-6.1 Sol for deeper work. Requires Codex access to both models.",
       "path": "grunts/balanced.md",
       "updated_at": "2026-10-05",
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-10-07",
       "supported_harnesses": [
         "codex"
       ],
