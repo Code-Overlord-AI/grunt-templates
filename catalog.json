@@ -8,7 +8,7 @@
       "description": "The Dark Lord's own war band: the best model-specific Grunt for each job, set up for every harness installed here. Matching Grunts are reused, and the bare Claude Code, Codex and Pi entries leave the Grunts menu once their models are in place.",
       "path": "grunts/recommended.md",
       "updated_at": "2026-10-07",
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-10-08",
       "supported_harnesses": [
         "claude-code",
         "codex",
