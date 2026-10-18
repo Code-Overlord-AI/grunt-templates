@@ -346,7 +346,8 @@
       "harness": "pi",
       "provider": "openrouter",
       "models": [
-        "deepseek/deepseek-v4.1-flash"
+        "deepseek/deepseek-v4.1-flash",
+        "deepseek/deepseek-v4.1-flash-1017"
       ],
       "cli_min_version": "1.0.2",
       "cli_max_version": null,
@@ -370,7 +371,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-10-18",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",

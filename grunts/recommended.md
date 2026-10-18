@@ -12,7 +12,7 @@ Set up this exact roster of model-specific Grunts for every harness installed on
 | codex-gpt-5.6-sol | 6.1 Sol | codex | openai | gpt-6.1-sol |
 | codex-gpt-5.6-terra | 5.6 Terra | codex | openai | gpt-5.6-terra |
 | codex-gpt-5.6-luna | 6 Luna | codex | openai | gpt-6-luna |
-| pi-deepseek-v4-0731 | Deepseek v4-1 (Pi) | pi | openrouter | deepseek/deepseek-v4.1-flash |
+| pi-deepseek-v4-0731 | DeepSeek V4.1 Flash 1017 (Pi) | pi | openrouter | deepseek/deepseek-v4.1-flash-1017 |
 | pi-glm-5-3-flash | GLM 5.3 Flash (Pi) | pi | openrouter | z-ai/glm-5.3-flash |
 | claude-code-glm | GLM 5.3 | claude-code | openrouter | z-ai/glm-5.3 |
 | pi-mimo-v2-6-flash | MiMo v2.6 Flash (Pi) | pi | openrouter | xiaomi/mimo-v2.6-flash |
@@ -91,6 +91,7 @@ Model identity sources:
 - Codex models and rollout: https://learn.chatgpt.com/docs/models
 - Terra API ID: https://developers.openai.com/api/docs/models/gpt-5.6-terra
 - OpenRouter model slugs: https://openrouter.ai/api/v1/models
+- DeepSeek V4.1 Flash 1017 release: https://api-docs.deepseek.com/news/news261017/
 - Pi provider credential environment: https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/providers.md
 - Claude Code OpenRouter routing: https://openrouter.ai/docs/cookbook/coding-agents/claude-code-integration
 
