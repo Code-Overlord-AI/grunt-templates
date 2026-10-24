@@ -390,7 +390,7 @@
       "adapter": "native",
       "effort_options": [],
       "recommended_default": null,
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-10-24",
       "sources": [
         "https://cursor.com/docs/cli/reference/parameters"
       ]
@@ -406,7 +406,7 @@
       "adapter": "native",
       "effort_options": [],
       "recommended_default": null,
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-10-24",
       "sources": [
         "https://antigravity.google/docs/cli/headless/"
       ]
