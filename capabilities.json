@@ -41,7 +41,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-10-24",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
@@ -82,7 +82,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-10-24",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
@@ -371,7 +371,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-24",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
