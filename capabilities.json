@@ -41,7 +41,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-25",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
@@ -82,7 +82,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-25",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
@@ -129,7 +129,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-25",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -167,7 +167,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-25",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags",
@@ -203,7 +203,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-25",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -390,7 +390,7 @@
       "adapter": "native",
       "effort_options": [],
       "recommended_default": null,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-25",
       "sources": [
         "https://cursor.com/docs/cli/reference/parameters"
       ]
@@ -406,7 +406,7 @@
       "adapter": "native",
       "effort_options": [],
       "recommended_default": null,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-25",
       "sources": [
         "https://antigravity.google/docs/cli/headless/"
       ]
