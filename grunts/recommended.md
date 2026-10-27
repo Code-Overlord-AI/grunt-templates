@@ -10,7 +10,7 @@ Set up this exact roster of model-specific Grunts for every harness installed on
 | claude-code-fable | Fable | claude-code | anthropic | claude-fable-5-1 |
 | codex-gpt-6-astra | 6 Astra | codex | openai | gpt-6-astra |
 | codex-gpt-5.6-sol | 6.1 Sol | codex | openai | gpt-6.1-sol |
-| codex-gpt-5.6-terra | 5.6 Terra | codex | openai | gpt-5.6-terra |
+| codex-gpt-5.6-terra | 6.1 Terra | codex | openai | gpt-6.1-terra |
 | codex-gpt-5.6-luna | 6 Luna | codex | openai | gpt-6-luna |
 | pi-deepseek-v4-0731 | DeepSeek V4.1 Flash 1017 (Pi) | pi | openrouter | deepseek/deepseek-v4.1-flash-1017 |
 | pi-glm-5-3-flash | GLM 5.3 Flash (Pi) | pi | openrouter | z-ai/glm-5.3-flash |

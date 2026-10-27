@@ -6,6 +6,7 @@
       "provider": "openai",
       "models": [
         "gpt-6.1-sol",
+        "gpt-6.1-terra",
         "gpt-6-sol",
         "gpt-6-astra",
         "gpt-5.6-sol",
@@ -41,12 +42,12 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-10-27",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
         "https://learn.chatgpt.com/docs/app-server#list-models-modellist",
-        "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/models-manager/models.json"
+        "https://github.com/openai/codex/blob/6fe77fc12346591b8037a8704640e40196b19044/codex-rs/models-manager/models.json"
       ]
     },
     {
@@ -82,12 +83,12 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-10-26",
+      "last_verified": "2026-10-27",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
         "https://learn.chatgpt.com/docs/app-server#list-models-modellist",
-        "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/models-manager/models.json"
+        "https://github.com/openai/codex/blob/6fe77fc12346591b8037a8704640e40196b19044/codex-rs/models-manager/models.json"
       ]
     },
     {
