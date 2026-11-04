@@ -17,6 +17,7 @@ Set up this exact roster of model-specific Grunts for every harness installed on
 | claude-code-glm | GLM 5.3 | claude-code | openrouter | z-ai/glm-5.3 |
 | pi-mimo-v2-6-flash | MiMo v2.6 Flash (Pi) | pi | openrouter | xiaomi/mimo-v2.6-flash |
 | claude-code-mimo-v2-6-flash | MiMo v2.6 Flash (Claude Code) | claude-code | openrouter | xiaomi/mimo-v2.6-flash |
+| claude-code-deepseek-v4-1-flash-1017 | DeepSeek V4.1 Flash 1017 (Claude Code) | claude-code | openrouter | deepseek/deepseek-v4.1-flash-1017 |
 
 Grunt IDs are stable handles. Rituals, Minions and the System Grunt launch Grunts by ID, so an ID stays the same after its model moves on (`codex-gpt-5.6-sol` runs 6.1 Sol). Keep the separate Pi and Claude Code entries even where their model is the same. Generic unpinned Grunts and unattached model profiles are not part of this roster.
 
@@ -34,7 +35,7 @@ Then add the model:
 - **Codex:** append `-m <model>` after the copied flags.
 - **Pi:** append `--provider openrouter --model <slug>` after the copied flags.
 - **Claude Code on Anthropic:** set all seven of `ANTHROPIC_MODEL`, `ANTHROPIC_DEFAULT_HAIKU_MODEL`, `ANTHROPIC_DEFAULT_SONNET_MODEL`, `ANTHROPIC_DEFAULT_OPUS_MODEL`, `ANTHROPIC_DEFAULT_FABLE_MODEL`, `ANTHROPIC_SMALL_FAST_MODEL` and `CLAUDE_CODE_SUBAGENT_MODEL` to the exact model, so subagents and background calls stay on it. No other env.
-- **Claude Code on OpenRouter:** set `ANTHROPIC_BASE_URL=https://openrouter.ai/api`; set `ANTHROPIC_MODEL`, `ANTHROPIC_DEFAULT_HAIKU_MODEL` and `ANTHROPIC_SMALL_FAST_MODEL` to the exact slug; set `API_TIMEOUT_MS=600000` and `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1`; bind `ANTHROPIC_AUTH_TOKEN` as described under Credentials. No other env.
+- **Claude Code on OpenRouter:** set `ANTHROPIC_BASE_URL=https://openrouter.ai/api`; set `ANTHROPIC_MODEL`, `ANTHROPIC_DEFAULT_HAIKU_MODEL` and `ANTHROPIC_SMALL_FAST_MODEL` to the exact slug; set `API_TIMEOUT_MS=600000` and `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1`; bind `ANTHROPIC_AUTH_TOKEN` as described under Credentials. `claude-code-deepseek-v4-1-flash-1017` also sets `CLAUDE_CODE_MAX_CONTEXT_TOKENS=1000000`, its real window. No other env.
 
 On a Grunt you reuse, set the model pins, env values and name above. Keep the flags, env, references and other settings the user already has; do not change its Skip approvals flags.
 
@@ -69,7 +70,7 @@ Anthropic roles require native Anthropic access; Codex roles require native Code
 
 Local Pi OpenRouter roles automatically use the supported shared OpenRouter provider credential at native launch with the ordinary provider/model flags; no new per-Grunt field, profile or secret reference is needed. Valid explicit Grunt `OPENROUTER_API_KEY` env and resolved Grunt/Minion secret references take precedence over the shared fallback; an invalid explicit reference must fail rather than silently fall back. Raw Minion `OPENROUTER_API_KEY` configuration is rejected by the existing credential-shaped env-key policy and is not a supported override. Pi receives the selected credential as process `OPENROUTER_API_KEY` at native launch; that process environment is distinct from raw Minion configuration. The shared local fallback wins over ambient shell credentials and Pi's saved OpenRouter login. When no explicit or shared managed key exists, valid ambient/native Pi authentication remains usable; do not require another key. Only genuinely missing, invalid or unavailable authentication yields a credential prerequisite/skipped result and guidance to the shared OpenRouter key setting. Remote Pi requires existing deliberate credential forwarding/reference or native remote login; do not forward the shared desktop slot.
 
-The two Claude Code OpenRouter Grunts carry their key as a `secret_refs` entry for `ANTHROPIC_AUTH_TOKEN`. Keep an existing reference. For a new entry, reuse an OpenRouter reference this desktop already holds: another Claude Code Grunt's `ANTHROPIC_AUTH_TOKEN` routed to `https://openrouter.ai/api`, a Grunt's `OPENROUTER_API_KEY` reference, or a `vault:` secret this desktop holds for OpenRouter. Never invent a reference or copy one into public files. If none exists, skip that Grunt and report that its OpenRouter key reference is missing. The shared OpenRouter key setting covers Pi only. Never embed key values, write credentials to command arguments or global configuration, or widen any provider's credential scope.
+The Claude Code OpenRouter Grunts carry their key as a `secret_refs` entry for `ANTHROPIC_AUTH_TOKEN`. Keep an existing reference. For a new entry, reuse an OpenRouter reference this desktop already holds: another Claude Code Grunt's `ANTHROPIC_AUTH_TOKEN` routed to `https://openrouter.ai/api`, a Grunt's `OPENROUTER_API_KEY` reference, or a `vault:` secret this desktop holds for OpenRouter. Never invent a reference or copy one into public files. If none exists, skip that Grunt and report that its OpenRouter key reference is missing. The shared OpenRouter key setting covers Pi only. Never embed key values, write credentials to command arguments or global configuration, or widen any provider's credential scope.
 
 ## Verification
 
@@ -89,7 +90,7 @@ Model identity sources:
 - Haiku 5.5 identity and availability: https://platform.claude.com/docs/en/models/haiku-5-5/overview
 - Claude Code model support and effort: https://code.claude.com/docs/en/model-config
 - Codex models and rollout: https://learn.chatgpt.com/docs/models
-- Terra API ID: https://developers.openai.com/api/docs/models/gpt-5.6-terra
+- Terra API ID: https://developers.openai.com/api/docs/models/gpt-6.1-terra
 - OpenRouter model slugs: https://openrouter.ai/api/v1/models
 - DeepSeek V4.1 Flash 1017 release: https://api-docs.deepseek.com/news/news261017/
 - Pi provider credential environment: https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/providers.md
