@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08",
+  "default": "claude-code-opus",
+  "models": [
+    {
+      "grunt_ids": [
+        "claude-code-opus"
+      ],
+      "name": "Opus",
+      "guidance": "The default: Anthropic's recommended starting model for most work, strong at coding, review and long agentic tasks, with a 1M context; it costs about twice Sonnet per token, so cheaper models suit simple or high-volume chores."
+    },
+    {
+      "grunt_ids": [
+        "claude-code-sonnet"
+      ],
+      "name": "Sonnet",
+      "guidance": "Close to Opus on everyday coding at about half its price, with a 1M context; a good fit for routine implementation, tests and docs, and weaker than Opus on the hardest debugging and design."
+    },
+    {
+      "grunt_ids": [
+        "claude-code-haiku"
+      ],
+      "name": "Haiku",
+      "guidance": "Anthropic's fastest and cheapest model, with a 1M context; good for quick lookups, summaries, triage and small edits, and not suited to complex multi-file changes or subtle reviews."
+    },
+    {
+      "grunt_ids": [
+        "claude-code-fable"
+      ],
+      "name": "Fable",
+      "guidance": "Anthropic's most capable model, for the hardest reasoning and long-horizon work; it is very expensive and draws heavily on plan budget, so only a person starts it, and routine work never needs it."
+    },
+    {
+      "grunt_ids": [
+        "codex-gpt-6-astra"
+      ],
+      "name": "6 Astra",
+      "guidance": "OpenAI's most capable Codex model for complex code, apps and research; it costs about as much as Fable, so it is for hard problems where it is wanted by name, not for routine work."
+    },
+    {
+      "grunt_ids": [
+        "codex-gpt-5.6-sol"
+      ],
+      "name": "6.1 Sol",
+      "guidance": "Near-Astra performance in Codex at about a fifth of Astra's price, close to Sonnet's cost; strong for complex coding and review in Codex."
+    },
+    {
+      "grunt_ids": [
+        "codex-gpt-5.6-terra"
+      ],
+      "name": "6.1 Terra",
+      "guidance": "A fast, efficient Codex model for clear writing, visual understanding and computer use, about half Sol's price; less suited to the hardest engineering problems."
+    },
+    {
+      "grunt_ids": [
+        "codex-gpt-5.6-luna"
+      ],
+      "name": "6 Luna",
+      "guidance": "OpenAI's most efficient Codex model for focused, high-volume tasks, priced like Haiku; not suited to complex multi-step engineering."
+    },
+    {
+      "grunt_ids": [
+        "claude-code-deepseek-v4-1-flash-1017",
+        "pi-deepseek-v4-0731"
+      ],
+      "name": "DeepSeek V4.1 Flash 1017",
+      "guidance": "A very low-cost DeepSeek model through OpenRouter, in Claude Code or Pi, with a 1M window; good for bulk, well-specified coding and background chores, with quality and tool use behind the Anthropic and OpenAI models."
+    },
+    {
+      "grunt_ids": [
+        "claude-code-glm"
+      ],
+      "name": "GLM 5.3",
+      "guidance": "Z.ai's flagship through OpenRouter in Claude Code, with a 1M context and always-on reasoning; a low-cost option for general coding that trails Opus on hard problems."
+    },
+    {
+      "grunt_ids": [
+        "pi-glm-5-3-flash"
+      ],
+      "name": "GLM 5.3 Flash",
+      "guidance": "Z.ai's very cheap multimodal flash model through OpenRouter in Pi; suited to light, high-volume tasks, not to complex or high-stakes changes."
+    },
+    {
+      "grunt_ids": [
+        "claude-code-mimo-v2-6-flash",
+        "pi-mimo-v2-6-flash"
+      ],
+      "name": "MiMo v2.6 Flash",
+      "guidance": "Xiaomi's low-cost fast model through OpenRouter, in Claude Code or Pi; suited to quick, cheap, repeatable runs and not to complex engineering."
+    }
+  ]
+}
