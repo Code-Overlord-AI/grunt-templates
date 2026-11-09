@@ -7,7 +7,7 @@ Set up this exact roster of model-specific Grunts for every harness installed on
 | claude-code-haiku | Haiku | claude-code | anthropic | claude-haiku-5-5 |
 | claude-code-sonnet | Sonnet | claude-code | anthropic | claude-sonnet-5-5 |
 | claude-code-opus | Opus | claude-code | anthropic | claude-opus-5-5 |
-| claude-code-fable | Fable | claude-code | anthropic | claude-fable-5-1 |
+| claude-code-fable | Fable | claude-code | anthropic | claude-fable-5-2 |
 | codex-gpt-6-astra | 6 Astra | codex | openai | gpt-6-astra |
 | codex-gpt-5.6-sol | 6.1 Sol | codex | openai | gpt-6.1-sol |
 | codex-gpt-5.6-terra | 6.1 Terra | codex | openai | gpt-6.1-terra |

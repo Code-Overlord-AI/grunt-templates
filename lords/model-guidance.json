@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-09",
   "default": "claude-code-opus",
   "models": [
     {
@@ -29,14 +29,14 @@
         "claude-code-fable"
       ],
       "name": "Fable",
-      "guidance": "Anthropic's most capable model, for the hardest reasoning and long-horizon work; it is very expensive and draws heavily on plan budget, so only a person starts it, and routine work never needs it."
+      "guidance": "Anthropic's most capable model, for the hardest reasoning and long-horizon work, at twice Opus's per-token price; it is very expensive and draws heavily on plan budget, so only a person starts it, and routine work never needs it."
     },
     {
       "grunt_ids": [
         "codex-gpt-6-astra"
       ],
       "name": "6 Astra",
-      "guidance": "OpenAI's most capable Codex model for complex code, apps and research; it costs about as much as Fable, so it is for hard problems where it is wanted by name, not for routine work."
+      "guidance": "OpenAI's most capable Codex model for complex code, apps and research; it costs a little more per token than Fable, so it is for hard problems where it is wanted by name, not for routine work."
     },
     {
       "grunt_ids": [
