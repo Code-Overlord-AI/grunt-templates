@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-18",
   "default": "claude-code-opus",
   "models": [
     {
@@ -35,15 +35,15 @@
       "grunt_ids": [
         "codex-gpt-6-astra"
       ],
-      "name": "6 Astra",
-      "guidance": "OpenAI's most capable Codex model for complex code, apps and research; it costs a little more per token than Fable, so it is for hard problems where it is wanted by name, not for routine work."
+      "name": "6.2 Astra",
+      "guidance": "OpenAI's most capable Codex model for the hardest end-to-end work, with up to a 1M context; it costs the same per token as Fable, so it is for hard problems where it is wanted by name, not for routine work."
     },
     {
       "grunt_ids": [
         "codex-gpt-5.6-sol"
       ],
-      "name": "6.1 Sol",
-      "guidance": "Near-Astra performance in Codex at about a fifth of Astra's price, close to Sonnet's cost; strong for complex coding and review in Codex."
+      "name": "6.2 Sol",
+      "guidance": "OpenAI's everyday Codex model, at about a quarter of 6.2 Astra's price and close to Sonnet's cost, with up to a 1M context; strong for complex coding and review in Codex."
     },
     {
       "grunt_ids": [

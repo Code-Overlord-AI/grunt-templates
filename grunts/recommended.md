@@ -8,8 +8,8 @@ Set up this exact roster of model-specific Grunts for every harness installed on
 | claude-code-sonnet | Sonnet | claude-code | anthropic | claude-sonnet-5-5 |
 | claude-code-opus | Opus | claude-code | anthropic | claude-opus-5-5 |
 | claude-code-fable | Fable | claude-code | anthropic | claude-fable-5-2 |
-| codex-gpt-6-astra | 6 Astra | codex | openai | gpt-6-astra |
-| codex-gpt-5.6-sol | 6.1 Sol | codex | openai | gpt-6.1-sol |
+| codex-gpt-6-astra | 6.2 Astra | codex | openai | gpt-6.2-astra |
+| codex-gpt-5.6-sol | 6.2 Sol | codex | openai | gpt-6.2-sol |
 | codex-gpt-5.6-terra | 6.1 Terra | codex | openai | gpt-6.1-terra |
 | codex-gpt-5.6-luna | 6 Luna | codex | openai | gpt-6-luna |
 | pi-deepseek-v4-0731 | DeepSeek V4.1 Flash 1017 (Pi) | pi | openrouter | deepseek/deepseek-v4.1-flash-1017 |
@@ -19,7 +19,7 @@ Set up this exact roster of model-specific Grunts for every harness installed on
 | claude-code-mimo-v2-6-flash | MiMo v2.6 Flash (Claude Code) | claude-code | openrouter | xiaomi/mimo-v2.6-flash |
 | claude-code-deepseek-v4-1-flash-1017 | DeepSeek V4.1 Flash 1017 (Claude Code) | claude-code | openrouter | deepseek/deepseek-v4.1-flash-1017 |
 
-Grunt IDs are stable handles. Rituals, Minions and the System Grunt launch Grunts by ID, so an ID stays the same after its model moves on (`codex-gpt-5.6-sol` runs 6.1 Sol). Keep the separate Pi and Claude Code entries even where their model is the same. Generic unpinned Grunts and unattached model profiles are not part of this roster.
+Grunt IDs are stable handles. Rituals, Minions and the System Grunt launch Grunts by ID, so an ID stays the same after its model moves on (`codex-gpt-5.6-sol` runs 6.2 Sol). Keep the separate Pi and Claude Code entries even where their model is the same. Generic unpinned Grunts and unattached model profiles are not part of this roster.
 
 ## Launch settings
 

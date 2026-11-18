@@ -42,13 +42,58 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
         "https://learn.chatgpt.com/docs/app-server#list-models-modellist",
         "https://github.com/openai/codex/blob/6fe77fc12346591b8037a8704640e40196b19044/codex-rs/models-manager/models.json",
         "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+      ]
+    },
+    {
+      "harness": "codex",
+      "provider": "openai",
+      "models": [
+        "gpt-6.2-astra",
+        "gpt-6.2-sol"
+      ],
+      "cli_min_version": "0.169.0",
+      "cli_max_version": null,
+      "adapter": "codex_config_v1",
+      "effort_options": [
+        {
+          "id": "low",
+          "label": "Low"
+        },
+        {
+          "id": "medium",
+          "label": "Medium"
+        },
+        {
+          "id": "high",
+          "label": "High"
+        },
+        {
+          "id": "xhigh",
+          "label": "X High"
+        },
+        {
+          "id": "max",
+          "label": "Max"
+        },
+        {
+          "id": "ultra",
+          "label": "Ultra"
+        }
+      ],
+      "recommended_default": "xhigh",
+      "last_verified": "2026-11-18",
+      "sources": [
+        "https://learn.chatgpt.com/docs/models",
+        "https://learn.chatgpt.com/docs/config-file/config-reference",
+        "https://learn.chatgpt.com/docs/app-server#list-models-modellist",
+        "https://github.com/openai/codex/blob/18352dc4e8757d652e4102a17abc76601847b8da/codex-rs/models-manager/models.json"
       ]
     },
     {
@@ -84,7 +129,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
@@ -131,7 +176,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -169,7 +214,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags",
@@ -208,7 +253,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags",
@@ -244,7 +289,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -283,7 +328,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -328,7 +373,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -377,7 +422,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -414,7 +459,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -454,7 +499,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-18",
       "sources": [
         "https://github.com/earendil-works/pi/blob/a92283056d915c758799fcd904948ff0cb42628c/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/a92283056d915c758799fcd904948ff0cb42628c/packages/coding-agent/docs/cli.md",
