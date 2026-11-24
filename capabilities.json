@@ -42,7 +42,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
@@ -88,7 +88,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
@@ -129,7 +129,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://learn.chatgpt.com/docs/models",
         "https://learn.chatgpt.com/docs/config-file/config-reference",
@@ -176,7 +176,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -214,7 +214,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags",
@@ -253,7 +253,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags",
@@ -289,7 +289,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://code.claude.com/docs/en/model-config#adjust-effort-level",
         "https://code.claude.com/docs/en/cli-reference#cli-flags"
@@ -328,7 +328,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -373,7 +373,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -422,7 +422,7 @@
         }
       ],
       "recommended_default": "xhigh",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -459,7 +459,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/b9ab918c626ad3dd5edb58de037540f9467def88/packages/coding-agent/docs/cli.md",
@@ -499,7 +499,7 @@
         }
       ],
       "recommended_default": "high",
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "sources": [
         "https://github.com/earendil-works/pi/blob/a92283056d915c758799fcd904948ff0cb42628c/packages/ai/src/models.ts",
         "https://github.com/earendil-works/pi/blob/a92283056d915c758799fcd904948ff0cb42628c/packages/coding-agent/docs/cli.md",
